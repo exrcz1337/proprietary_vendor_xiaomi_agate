@@ -1118,7 +1118,7 @@ PRODUCT_PACKAGES += \
     libgpudataproducer \
     libmcv_runtime.mtk \
     libmdla_ut \
-    libmnl \
+    libmnl_mtk \
     libneuron_platform.vpu \
     libneuron_runtime.5 \
     libneuron_runtime \
