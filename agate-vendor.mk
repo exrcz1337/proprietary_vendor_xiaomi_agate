@@ -388,7 +388,6 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
-    android.hardware.audio@7.0-impl-mediatek \
     audio.primary.mt6893 \
     sound_trigger.primary.default \
     libAVCSecureVencCA \
