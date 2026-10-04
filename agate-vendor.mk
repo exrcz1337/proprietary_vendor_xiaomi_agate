@@ -6,125 +6,30 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/agate
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/agate/proprietary/vendor/etc/.tp/.thermal_policy_08:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.thermal_policy_08 \
-    vendor/xiaomi/agate/proprietary/vendor/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolAna_CeRegion_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_CeRegion_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolDigi_CeRegion_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_CeRegion_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Ultrasound_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Ultrasound_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_hifi3.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/aurisys_param/FV-SAM-MTKXX.dat:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/FV-SAM-MTKXX.dat \
     vendor/xiaomi/agate/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/camera/CFR_para_HD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_HD.bin \
@@ -181,97 +86,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/agate/proprietary/vendor/etc/camera/xiaomi/uwsuperlowlightshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/uwsuperlowlightshot.json \
     vendor/xiaomi/agate/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
     vendor/xiaomi/agate/proprietary/vendor/etc/cust_silky_brightness.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_silky_brightness.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP09.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP12.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CMCC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_CMCC.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_CT.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_CU.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_CU.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Colombia.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Colombia.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Claro_Peru.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Entel_Peru.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_KDDI.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_SK_Telecom.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_SoftBank.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Sprint.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_T-Mobile_US.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/xiaomi/agate/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.conninfra.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/microtrust.bp_kmsetkey_ca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.bp_kmsetkey_ca.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/microtrust.init_thh.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.init_thh.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/microtrust.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/microtrust.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.soter@1.0-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.microtrust.hardware.thh@2.0-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-iseeservice.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mlipay@1.1-iseeservice.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.mtdservice@1.3-iseeservice.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
-    vendor/xiaomi/agate/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/mdss_dsi_k11t_42_02_0a_dsc_cmd_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_k11t_42_02_0a_dsc_cmd_mi.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
+    vendor/xiaomi/agate/proprietary/vendor/etc/misound_res.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res.bin \
+    vendor/xiaomi/agate/proprietary/vendor/etc/misound_res_headphone.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_headphone.bin \
+    vendor/xiaomi/agate/proprietary/vendor/etc/misound_res_spk.bin:$(TARGET_COPY_OUT_VENDOR)/etc/misound_res_spk.bin \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-class0.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-camera.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-class0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-class0.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-huanji.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-huanji.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-mgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-mgame.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-navigation.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-navigation.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-nolimits.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-normal.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-phone.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-tgame.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-k11r-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-k11r-video.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/thermal-map-k11r.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map-k11r.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-mgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-mgame.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-navigation.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-navigation.conf \
@@ -281,19 +102,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermal-video.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-video.conf \
     vendor/xiaomi/agate/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/agate/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/xiaomi/agate/proprietary/vendor/etc/wifi/passpointProfile.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/passpointProfile.conf \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/168_fingerprintRecord_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/168_fingerprintRecord_RTP.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/xiaomi/agate/proprietary/vendor/firmware/RCV-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/RCV-cs35l41-dsp1-spk-cali.bin \
     vendor/xiaomi/agate/proprietary/vendor/firmware/RCV-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/RCV-cs35l41-dsp1-spk-prot.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc3_0_1a_1.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/conninfra.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/conninfra.cfg \
     vendor/xiaomi/agate/proprietary/vendor/firmware/cs35l41-delta-rcv-handset.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-rcv-handset.txt \
     vendor/xiaomi/agate/proprietary/vendor/firmware/cs35l41-delta-rcv-handsfree.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-rcv-handsfree.txt \
     vendor/xiaomi/agate/proprietary/vendor/firmware/cs35l41-delta-rcv-music.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-delta-rcv-music.txt \
@@ -303,146 +113,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/agate/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.wmfw \
     vendor/xiaomi/agate/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/agate/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/novatek_ts_fw_144.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_144.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/novatek_ts_fw_jdi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_jdi.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/novatek_ts_fw_tm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw_tm.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_patch_wmmcu_1a_1_hdr.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1a_1_hdr.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1a_1_hdr.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wifi_1a_1_hdr.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/st_fts_k11st.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts_k11st.ftb \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/st_fts_k11st_htp.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/st_fts_k11st_htp.ftb \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/stm_fts_production_limits_k11st.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/stm_fts_production_limits_k11st.csv \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
-    vendor/xiaomi/agate/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/020f0000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/020f0000000000000000000000000000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/05120000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/05120000000000000000000000000000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/06090000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/06090000000000000000000000000000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/08010203000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08010203000000000000000000000000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/08030000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08030000000000000000000000000000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/08110000000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08110000000000000000000000000000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/40188311faf343488db888ad39496f9a.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/40188311faf343488db888ad39496f9a.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/5020170115e016302017012521300000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/5020170115e016302017012521300000.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/8aaaf201246000007143fe4f7c823c80.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/8aaaf201246000007143fe4f7c823c80.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/9073f03a9618383bb1856eb3f990babd.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/9073f03a9618383bb1856eb3f990babd.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/a985d3eb3b524d44be6c628a813561e8.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/a985d3eb3b524d44be6c628a813561e8.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/abcd270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/abcd270ea5c44c58bcd3384a2fa2539e.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d78d338b1ac349e09f65f4efe179739d.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
-    vendor/xiaomi/agate/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
+    vendor/xiaomi/agate/proprietary/vendor/firmware/lib3a.ccu:$(TARGET_COPY_OUT_VENDOR)/firmware/lib3a.ccu
 
 PRODUCT_PACKAGES += \
-    libTEECommon \
-    libaedv \
-    libaiselector_cust \
-    libapu_mdw \
-    libapusys \
-    libbwc \
-    libcustom_nvram \
-    libdapparamstorage \
-    libdeccfg \
-    libfile_op \
-    libgz_gp_client \
-    libgz_uree \
-    libimsg_log \
-    libion_mtk \
-    libion_ulit \
-    libladder \
-    libmtcloader \
-    libmtkcutils \
-    libmtkproperty \
-    libmtkrillog \
-    libnvram \
-    libnvram_sec \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
-    libstagefrightdolby \
-    libteecli \
-    libteeclientjni_isee \
-    libteeclientjni_isee@1.1 \
-    libteei_daemon_vfs \
-    libthha \
-    libmtk_drvb \
-    libswdap \
-    libswgamedap \
-    libswvqe \
-    vendor.dolby.hardware.dms@2.0 \
-    vendor.mediatek.hardware.nvram@1.0 \
-    vendor.mediatek.hardware.nvram@1.1 \
-    AV1SecureVdecCA \
-    AVCSecureVdecCA \
-    HEVCSecureVdecCA \
-    VP9SecureVdecCA \
-    android.hardware.audio@7.0-impl-mediatek \
     audio.primary.mt6893 \
-    sound_trigger.primary.default \
-    libAVCSecureVencCA \
-    libHEVCdec_sa.ca7.android \
-    libMtkSpeechEnh \
-    lib_iir \
-    lib_speech_enh \
-    libalsautils-v31 \
     libaudio_param_parser-vnd \
-    libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
-    libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
-    libaudiocustparam_vendor \
-    libaudiodcrflt_vendor \
-    libaudiofmtconv \
-    libaudioloudc \
-    libaudioprimarydevicehalifclient \
-    libaudiotoolkit_vendor \
-    libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
-    libcvsd_mtk \
     libfvaudio \
-    libh264dec_customize \
-    libh264dec_sa.ca7 \
-    libh264enc_sa.ca7 \
-    libhevce_sb.ca7.android \
-    libmp4enc_sa.ca7 \
-    libmsbc_mtk \
-    libmtklimiter_vendor \
-    libmtkshifter_vendor \
-    libnxp_extamp_intf \
-    librt_extamp_intf \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
-    libthermalalgo \
-    libvcodec_oal \
-    libvcodec_utility \
-    libvcodecdrv \
-    libvcodecdrv_header_stub \
-    libvow_ap_test_aa \
-    libvow_ap_test_ha \
-    libvow_ap_test_hh \
-    libvow_ap_test_nn \
-    libvp8dec_sa.ca7 \
-    libvp8enc_sa.ca7 \
-    libvp9dec_sa.ca7 \
-    libvpud_vcodec \
-    vendor.mediatek.hardware.audio@7.1 \
-    APUWareApusysServer \
-    APUWareHmpServer \
-    APUWareUtilsServer \
-    APUWareXrpServer_v2 \
+    libmisound \
+    libmisoundcrossfade \
     agateimx355_mipi_raw_IdxMgr \
     agateimx355_mipi_raw_tuning \
     agateov16a1q_mipi_raw_IdxMgr \
@@ -453,38 +131,31 @@ PRODUCT_PACKAGES += \
     agates5k5e9_mipi_raw_tuning \
     agates5khm2_mipi_raw_IdxMgr \
     agates5khm2_mipi_raw_tuning \
-    com.fingerprints.extension@3.0 \
-    libGLES_meow \
-    libMEOW_data \
-    libMEOW_gift \
-    libMEOW_qt \
-    libMEOW_trace \
-    libGLES_mali \
+    com.xiaomi.plugin.capbokeh \
+    com.xiaomi.plugin.dc \
+    com.xiaomi.plugin.depurple \
+    com.xiaomi.plugin.hdr \
+    com.xiaomi.plugin.ldc \
+    com.xiaomi.plugin.memcpy \
+    com.xiaomi.plugin.miaideblur \
+    com.xiaomi.plugin.miaihdr \
+    com.xiaomi.plugin.miaiie \
+    com.xiaomi.plugin.mibokeh \
+    com.xiaomi.plugin.mifragment \
+    com.xiaomi.plugin.misegment \
+    com.xiaomi.plugin.rawsuperlight \
+    com.xiaomi.plugin.skinbeautifier \
+    com.xiaomi.plugin.sr \
+    com.xiaomi.plugin.superlowlight \
+    com.xiaomi.plugin.supernight \
+    com.xiaomi.plugin.swflip \
+    com.xiaomi.plugin.tetrassr \
+    com.xiaomi.plugin.uwfusion \
     android.hardware.camera.provider@2.6-impl-mediatek \
-    android.hardware.gnss-impl-mediatek \
-    android.hardware.gnss@2.1-impl-mediatek \
-    consumerir.common \
-    fingerprint.fpc_isee \
-    fingerprint.goodix \
-    gatekeeper.beanpod \
-    gps.default \
-    hwcomposer.mt6893 \
-    android.hardware.graphics.allocator@4.0-impl-mediatek \
-    android.hardware.graphics.mapper@4.0-impl-mediatek \
-    vulkan.mali \
-    sensors.elliptic \
-    sensors.mt6893 \
-    sensors.touch.detect \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
-    vendor.mediatek.hardware.mms@1.6-impl \
-    vendor.mediatek.hardware.nvram@1.1-impl \
-    vendor.mediatek.hardware.pq@2.15-impl \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
-    vendor.xiaomi.hardware.citsensorservice@1.1-impl \
-    lbs_hidl_service-impl \
     lib3a.ae.core \
     lib3a.ae \
     lib3a.ae.stat \
@@ -766,13 +437,8 @@ PRODUCT_PACKAGES += \
     libCamera_agates5khm2mipiraw_XTS_Capture \
     libCamera_agates5khm2mipiraw_portrait_capture_full \
     libCamera_agates5khm2mipiraw_portrait_preview_full \
-    libDefaultFpsActor \
-    libFrameRecord \
     libHalSuperSensorServer \
     libHalSuperSensorServerCWrapper \
-    libJpgEncPipe \
-    libNoFpsActor \
-    libOpenCL \
     libSQLiteModule_VER_ALL \
     libSonyIMX230PdafLibrary \
     libSonyIMX230PdafLibraryWrapper \
@@ -789,11 +455,6 @@ PRODUCT_PACKAGES += \
     lib_sr_models \
     libaaa_ltm \
     libaaa_ltmx \
-    libaal_cust \
-    libaal_key \
-    libaal_mtk \
-    libaalservice \
-    libadpcmdec_mtk \
     libaiawb_moon \
     libaiawb_moon_model \
     libaiawb_p1ggm \
@@ -803,15 +464,11 @@ PRODUCT_PACKAGES += \
     libaibc_tuning_p2 \
     libaibc_tuning_p3 \
     libainrcore \
-    libaispq \
     libalCFR \
     libalLDC \
     libalhLDC \
     libanc_calibration_parser \
     libanc_dc_base \
-    libappgamepq \
-    libapu_mdw_batch \
-    libapusys_edma \
     libarcsoft_beautyshot \
     libarcsoft_distortion_correction \
     libarcsoft_dualcam_refocus \
@@ -823,12 +480,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_sn_mtk_apu \
     libarcsoft_super_night_raw \
     libarcsoft_supernight \
-    libarmnn \
-    libarmnn_ndk.mtk.vndk \
     libbeauty_face_interface \
-    libbluetooth_mtk \
-    libbluetooth_mtk_pure \
-    libbt-vendor \
     libc++_shared \
     libcam.ArcCamEngine \
     libcam.afhal \
@@ -889,29 +541,10 @@ PRODUCT_PACKAGES += \
     libcamera_scene \
     libcameracustom.eis \
     libcameracustom \
-    libcares_naptr \
-    libcarrierconfig \
-    libccci_util \
-    libcmdl \
-    libcmdl_ndk.mtk.vndk \
-    libcodec2_mtk_c2store \
-    libcodec2_mtk_vdec \
-    libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
-    libcodec2_vpp_qt_plugin \
-    libcodec2_vpp_rs_plugin \
     libcom.xiaomi.pluginutils \
-    libcomposer_ext \
-    libconnfem \
     libdip_drv \
     libdip_imem \
     libdip_postproc \
-    libdlbdsservice \
-    libdre \
     libeffecthal.base \
     libfeature.face \
     libfeature.stereo.provider \
@@ -923,37 +556,16 @@ PRODUCT_PACKAGES += \
     libfeature_rss \
     libfeatureiodrv_mem \
     libfocus \
-    libforkexecwrap \
-    libformatter \
-    libgamehdr \
-    libged \
-    libgf_ca \
-    libgf_hal \
-    libgoodixhwfingerprint \
-    libgpu_aux \
-    libgpud \
-    libgralloc_extra \
-    libgralloc_metadata \
-    libgralloctypes_mtk \
-    libgwsdv2-ril \
-    libhdrvideo \
     libheichal \
-    libhfmanager \
-    libhfmanagerwrapper \
-    libhwm \
-    libifcutils_mtk \
     libimagebuffer_wrapper \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
     libimgsensorca \
     libispcameraca \
-    libjpeg-alpha-oal_vendor \
-    libjpeg-alpha_vendor \
-    libksensor \
     liblpcnr \
-    libmfido_isee \
     libmfllcore \
+    libmiai_deblur \
     libmiai_portraitsupernight \
     libmialgo_ie_capture \
     libmialgo_sd \
@@ -963,20 +575,8 @@ PRODUCT_PACKAGES += \
     libmialgoengine2 \
     libmibokeh_845_video \
     libmibokeh_mt6873 \
-    libmipc \
-    libmlipay_isee \
-    libmlipay_isee@1.1 \
-    libmmagent \
-    libmml \
-    libmnetlink_v104 \
-    libmp3dec_mtk \
     libmpbase \
     libmsnr \
-    libmt_isee \
-    libmt_isee@1.3 \
-    libmtk-fusion-ril-prop-vsim \
-    libmtk-ril \
-    libmtkares \
     libmtkcam.atmseventmgr \
     libmtkcam.eventcallback \
     libmtkcam.featurepipe.capture \
@@ -1043,48 +643,10 @@ PRODUCT_PACKAGES += \
     libmtkcam_tuning_utils \
     libmtkcam_ulog \
     libmtkcam_vsync_util \
-    libmtkconfig \
-    libmtkconfigutils \
-    libmtkhardware_legacy \
     libmtkisp_metadata \
-    libmtkmipc-ril \
-    libmtknetcap \
-    libmtknetutils \
-    libmtkrilutils \
-    libmtksysutils \
-    libmtktinyxml \
-    libmtkutils \
-    libneuroeara \
-    libneuron_adapter \
-    libneuron_graph_delegate.mtk \
-    libneuron_platform \
-    libneuron_wrapper \
-    libneuropilot_hal_utils \
-    libnir_neon_driver_ndk.mtk.vndk \
-    libnotifyaudiohal \
-    liboemcrypto \
-    libpq_cust_base \
-    libpqframework \
-    libpqparamparser \
-    libpqpconfig \
-    libratconfig \
-    librilfusion \
-    librpc \
-    libscltm \
+    librelight_only \
     libsdk_sr \
-    libsensor_custom \
-    libssccalapi \
     libstereoinfoaccessor_vsdof \
-    libstorage_otp \
-    libsysenv \
-    libthhclient \
-    libtlcWidevineModularDrm \
-    libtrm \
-    libudf \
-    liburee_meta_drmkeyinstall \
-    libvia-ril \
-    libviagpsrpc \
-    libviamipc-ril \
     libvideofilter_only \
     libvidhance \
     libvidhance_active_ois \
@@ -1095,8 +657,6 @@ PRODUCT_PACKAGES += \
     libvidhance_ldc \
     libvidhance_stabilizer \
     libvidhance_super_stabilization \
-    libvpu \
-    libvpu5 \
     libwa_depth \
     libwa_opticalzoom_fusion \
     libwa_opticalzoomfactor \
@@ -1104,163 +664,20 @@ PRODUCT_PACKAGES += \
     libwa_rtdof \
     libwa_rtrefocus \
     libwa_sat \
-    libwapi \
-    libwpfa \
-    libwvhidl \
-    libwvkeybox \
     libxmi_high_dynamic_range \
-    libwvdrmengine \
-    arm.graphics-V1-ndk_platform \
-    arm.graphics-ndk_platform \
-    libDR \
-    libaiselector \
-    libdpframework \
-    libgpudataproducer \
-    libmcv_runtime.mtk \
-    libmdla_ut \
-    libmnl \
-    libneuron_platform.vpu \
-    libneuron_runtime.5 \
-    libneuron_runtime \
-    libnir_neon_driver \
-    libpq_prot \
     libmtkcam_streaminfo_plugin-p1stt \
-    vendor.dolby.hardware.dms@2.0-impl \
-    vendor.mediatek.hardware.apuware.apusys@2.0 \
-    vendor.mediatek.hardware.apuware.apusys@2.1 \
-    vendor.mediatek.hardware.apuware.hmp@1.0 \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.apuware.xrp@2.0 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
-    vendor.mediatek.hardware.camera.ccap@1.0 \
     vendor.mediatek.hardware.camera.device@3.7 \
     vendor.mediatek.hardware.camera.frhandler@1.0 \
     vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
-    vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.lbs@1.0 \
-    vendor.mediatek.hardware.mmagent@1.0 \
-    vendor.mediatek.hardware.mmagent@1.1 \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
-    vendor.mediatek.hardware.mms@1.4 \
-    vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
-    vendor.mediatek.hardware.netdagent@1.0 \
-    vendor.mediatek.hardware.power@2.0 \
-    vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.10 \
-    vendor.mediatek.hardware.pq@2.11 \
-    vendor.mediatek.hardware.pq@2.12 \
-    vendor.mediatek.hardware.pq@2.13 \
-    vendor.mediatek.hardware.pq@2.14 \
-    vendor.mediatek.hardware.pq@2.15 \
-    vendor.mediatek.hardware.pq@2.2 \
-    vendor.mediatek.hardware.pq@2.3 \
-    vendor.mediatek.hardware.pq@2.4 \
-    vendor.mediatek.hardware.pq@2.5 \
-    vendor.mediatek.hardware.pq@2.6 \
-    vendor.mediatek.hardware.pq@2.7 \
-    vendor.mediatek.hardware.pq@2.8 \
-    vendor.mediatek.hardware.pq@2.9 \
-    vendor.mediatek.hardware.videotelephony@1.0 \
-    vendor.microtrust.hardware.soter@1.0 \
-    vendor.microtrust.hardware.thh@2.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.0 \
-    vendor.xiaomi.hardware.citsensorservice@1.1 \
-    wechat.beanpod \
-    SoterService \
-    HotwordEnrollmentOKGoogleRISCV \
-    HotwordEnrollmentXGoogleRISCV \
-    camerax-vendor-extensions \
-    com.android.hotwordenrollment.common.util \
-    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
-    fod.xml \
-    gnss-mtk.xml \
-    gnss@2.1-service.xml \
-    lbs_hidl_service@1.0.xml \
-    manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_media_c2_V1_2_default.xml \
-    manifest_vendor.dolby.hardware.dms.xml \
     batterysecret \
-    bp_kmsetkey_ca \
-    ccci_mdinit \
-    ccci_rpcd \
-    conninfra_loader \
-    fidoca_isee \
-    gsm0710muxd \
-    android.hardware.drm@1.4-service.widevine \
-    android.hardware.gnss-service.mediatek \
-    android.hardware.graphics.allocator@4.0-service-mediatek \
-    android.hardware.keymaster@4.1-service.beanpod \
-    android.hardware.media.c2@1.2-mediatek-64b \
-    android.hardware.neuralnetworks@1.3-service-mtk-neuron \
-    android.hardware.secure_element@1.2-service-mediatek \
     camerahalserver \
-    mtkfusionrild \
-    tetheroffloadservice \
-    vendor.dolby.hardware.dms@2.0-service \
-    vendor.mediatek.hardware.mmagent@1.1-service \
-    vendor.mediatek.hardware.mms@1.6-service \
-    vendor.mediatek.hardware.nvram@1.1-service \
-    vendor.mediatek.hardware.pq@2.2-service \
-    vendor.microtrust.hardware.soter@1.0-service \
-    vendor.microtrust.hardware.thh@2.0-service \
-    vendor.xiaomi.hardware.citsensorservice@1.1-service \
-    vtservice_hidl \
-    init_thh_isee \
-    lbs_hidl_service \
     lib3a.ccu.ddr \
     lib3a.ccu.dm \
     lib3a.ccu.pm \
-    mi_thermald \
-    mlipayd_isee@1.1 \
-    mnld \
-    mtd_isee@1.3 \
-    mtk_agpsd \
-    netdagent \
-    nvram_daemon \
-    teei_daemon \
-    thermal \
-    thermal_core \
-    thermal_intf \
-    thermal_manager \
-    thermalloadalgod \
-    vpud
-
-PRODUCT_PACKAGES += \
-    vendor_bin_hw_android_hardware_media_c2@1_2-mediatek \
-    vendor_lib_libmtk_drvb_so \
-    vendor_lib64_egl_libGLES_mali_so \
-    vendor_lib64_hw_fingerprint_fpc_default_so \
-    vendor_lib64_hw_fingerprint_goodix_default_so \
-    vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
-    vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
-    vendor_lib64_hw_vulkan_mali_so \
-    vendor_lib64_arm_graphics-V1-ndk_platform_so \
-    vendor_lib64_arm_graphics-ndk_platform_so \
-    vendor_lib64_libDR_so \
-    vendor_lib64_libaiselector_so \
-    vendor_lib64_libdpframework_so \
-    vendor_lib64_libgpudataproducer_so \
-    vendor_lib64_libmcv_runtime_mtk_so \
-    vendor_lib64_libmdla_ut_so \
-    vendor_lib64_libmnl_so \
-    vendor_lib64_libmtk_drvb_so \
-    vendor_lib64_libneuron_platform_vpu_so \
-    vendor_lib64_libneuron_runtime_5_so \
-    vendor_lib64_libneuron_runtime_so \
-    vendor_lib64_libnir_neon_driver_so \
-    vendor_lib64_libpq_prot_so
-
-PRODUCT_BOOT_JARS += \
-    camerax-vendor-extensions
+    mi_thermald
