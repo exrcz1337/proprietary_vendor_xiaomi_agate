@@ -3,8 +3,8 @@
   "NodesList": {
     "Node": [
       {
-        "NodeName": "com.xiaomi.plugin.rawsuperlight",
-        "NodeInstance": "RawSuperlightInstance"
+        "NodeName": "com.xiaomi.plugin.supernight",
+        "NodeInstance": "SupernightInstance"
       }
     ]
   },
@@ -17,13 +17,13 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "RawSuperlightInstance"
+          "NodeInstance": "SupernightInstance"
         }
-      }, 
+      },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "RawSuperlightInstance"
+          "NodeInstance": "SupernightInstance"
         },
         "DstPort": {
           "PortId": 0,

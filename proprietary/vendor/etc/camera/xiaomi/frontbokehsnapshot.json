@@ -3,16 +3,12 @@
   "NodesList": {
     "Node": [
       {
+        "NodeName": "com.xiaomi.plugin.misegment",
+        "NodeInstance": "MisegmentInstance"
+      },
+      {
         "NodeName": "com.xiaomi.plugin.skinbeautifier",
-        "NodeInstance":  "SkinInstance"
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.swflip",
-        "NodeInstance":  "SwflipInstance"
-      },
-      {
-        "NodeName": "com.xiaomi.plugin.mibokeh",
-        "NodeInstance": "MibokehInstance"
+        "NodeInstance": "SkinInstance"
       }
     ]
   },
@@ -25,37 +21,27 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance":  "SkinInstance"
+          "NodeInstance": "MisegmentInstance"
         }
       },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance":  "SkinInstance"
+          "NodeInstance": "MisegmentInstance"
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance":  "SwflipInstance"
+          "NodeInstance": "SkinInstance"
         }
       },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance":  "SwflipInstance"
+          "NodeInstance": "SkinInstance"
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance":  "MibokehInstance"
-        }
-      },
-      {
-        "SrcPort": {
-          "PortId": 0,
-          "NodeInstance":  "MibokehInstance"
-        },
-        "DstPort": {
-          "PortId": 0,
-          "NodeInstance":  "SinkBuffer"
+          "NodeInstance": "SinkBuffer"
         }
       }
     ]
