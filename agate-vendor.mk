@@ -453,6 +453,26 @@ PRODUCT_PACKAGES += \
     agates5k5e9_mipi_raw_tuning \
     agates5khm2_mipi_raw_IdxMgr \
     agates5khm2_mipi_raw_tuning \
+    com.xiaomi.plugin.capbokeh \
+    com.xiaomi.plugin.dc \
+    com.xiaomi.plugin.depurple \
+    com.xiaomi.plugin.hdr \
+    com.xiaomi.plugin.ldc \
+    com.xiaomi.plugin.memcpy \
+    com.xiaomi.plugin.miaideblur \
+    com.xiaomi.plugin.miaihdr \
+    com.xiaomi.plugin.miaiie \
+    com.xiaomi.plugin.mibokeh \
+    com.xiaomi.plugin.mifragment \
+    com.xiaomi.plugin.misegment \
+    com.xiaomi.plugin.rawsuperlight \
+    com.xiaomi.plugin.skinbeautifier \
+    com.xiaomi.plugin.sr \
+    com.xiaomi.plugin.superlowlight \
+    com.xiaomi.plugin.supernight \
+    com.xiaomi.plugin.swflip \
+    com.xiaomi.plugin.tetrassr \
+    com.xiaomi.plugin.uwfusion \
     com.fingerprints.extension@3.0 \
     libGLES_meow \
     libMEOW_data \
