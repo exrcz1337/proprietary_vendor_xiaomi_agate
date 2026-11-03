@@ -473,6 +473,8 @@ PRODUCT_PACKAGES += \
     com.xiaomi.plugin.swflip \
     com.xiaomi.plugin.tetrassr \
     com.xiaomi.plugin.uwfusion \
+    libmiai_deblur \
+    librelight_only \
     com.fingerprints.extension@3.0 \
     libGLES_meow \
     libMEOW_data \
