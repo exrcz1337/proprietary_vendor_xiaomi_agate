@@ -8,12 +8,20 @@
         "NodeInstance": "HdrInstance"
       },
       {
+        "NodeName": "com.xiaomi.plugin.dc",
+        "NodeInstance": "DcInstance"
+      },
+      {
         "NodeName": "com.xiaomi.plugin.ldc",
         "NodeInstance": "LdcInstance"
       },
       {
         "NodeName": "com.qcom.plugin.gpu",
         "NodeInstance": "GpuInstance"
+      },
+      {
+        "NodeName": "com.xiaomi.plugin.mibokeh",
+        "NodeInstance": "MibokehInstance"
       },
       {
         "NodeName": "com.xiaomi.plugin.skinbeautifier",
@@ -44,6 +52,16 @@
         },
         "DstPort": {
           "PortId": 0,
+          "NodeInstance": "DcInstance"
+        }
+      },
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "DcInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
           "NodeInstance": "LdcInstance"
         }
       },
@@ -61,6 +79,16 @@
         "SrcPort": {
           "PortId": 0,
           "NodeInstance": "GpuInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "MibokehInstance"
+        }
+      },
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "MibokehInstance"
         },
         "DstPort": {
           "PortId": 0,

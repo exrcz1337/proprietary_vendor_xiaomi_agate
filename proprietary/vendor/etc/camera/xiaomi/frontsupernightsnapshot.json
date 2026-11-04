@@ -4,11 +4,15 @@
     "Node": [
       {
         "NodeName": "com.xiaomi.plugin.supernight",
-        "NodeInstance": "SupernightInstance"
+        "NodeInstance":   "SupernightInstance"
       },
       {
         "NodeName": "com.xiaomi.plugin.skinbeautifier",
         "NodeInstance": "SkinInstance"
+      },
+      {
+        "NodeName": "com.xiaomi.plugin.swflip",
+        "NodeInstance":  "SwflipInstance"
       }
     ]
   },
@@ -27,7 +31,7 @@
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "SupernightInstance"
+          "NodeInstance":"SupernightInstance"
         },
         "DstPort": {
           "PortId": 0,
@@ -37,7 +41,17 @@
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "SkinInstance"
+          "NodeInstance":"SkinInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "SwflipInstance"
+        }
+      },
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance":"SwflipInstance"
         },
         "DstPort": {
           "PortId": 0,

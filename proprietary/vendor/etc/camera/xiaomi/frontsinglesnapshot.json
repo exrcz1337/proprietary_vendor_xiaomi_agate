@@ -3,8 +3,12 @@
   "NodesList": {
     "Node": [
       {
-        "NodeName": "com.xiaomi.plugin.hdr",
-        "NodeInstance": "HdrInstance"
+        "NodeName": "com.xiaomi.plugin.miaihdr",
+        "NodeInstance": "MiaihdrInstance"
+      },
+      {
+        "NodeName": "com.xiaomi.plugin.dc",
+        "NodeInstance": "DcInstance"
       },
       {
         "NodeName": "com.xiaomi.plugin.misegment",
@@ -12,7 +16,11 @@
       },
       {
         "NodeName": "com.xiaomi.plugin.skinbeautifier",
-        "NodeInstance": "SkinInstance"
+        "NodeInstance": "Skinnstance"
+      },
+      {
+        "NodeName": "com.xiaomi.plugin.swflip",
+        "NodeInstance":"SwflipInstance"
       }
     ]
   },
@@ -25,13 +33,23 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "HdrInstance"
+          "NodeInstance": "MiaihdrInstance"
         }
       },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "HdrInstance"
+          "NodeInstance": "MiaihdrInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "DcInstance"
+        }
+      },
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "DcInstance"
         },
         "DstPort": {
           "PortId": 0,
@@ -45,17 +63,27 @@
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "SkinInstance"
+          "NodeInstance":"Skinnstance"
         }
       },
       {
         "SrcPort": {
           "PortId": 0,
-          "NodeInstance": "SkinInstance"
+          "NodeInstance": "Skinnstance"
         },
         "DstPort": {
           "PortId": 0,
-          "NodeInstance": "SinkBuffer"
+          "NodeInstance":"SwflipInstance"
+        }
+      },
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "SwflipInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance":"SinkBuffer"
         }
       }
     ]
